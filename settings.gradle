@@ -1,0 +1,6 @@
+rootProject.name='GameCoverClassifier'
+include ':app'
+
+def opencvsdk='D:/SDK/OpenCV-android-sdk'
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk + '/sdk')
